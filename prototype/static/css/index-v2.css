@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font: 10px 'Source Sans Pro',Arial,Helvetica,sans-serif;
+	background-color: white;
+	color: #585754;
+}
+
+/**************************************
+	Header style
+***************************************/
+.header{
+	margin-top: 40px;
+}
+.header-inner{
+	border-top: 2px solid #92bae1;
+	height: 120px;
+	background: url('../img/bg1.png') left top repeat-x;
+}
+.logo{
+
+	height:120px;
+	width: 490px;
+	background: url('../img/logo-v2-x.png') left center no-repeat;	
+}
+.search-form{
+	margin:45px 10px 0 0;
+	padding:0 0 0 0px;
+}
+.logo-links{
+	margin:45px 20px 0 0;
+}
+.logo-links a{
+	display: block;
+	padding:1px 10px;	
+	border-left: 1px dotted #3e74b1;
+	font-size: 1.4em;
+	line-height: 2em;
+	height:2em;
+	color:#92bae1;
+}
+.logo-links a:hover{
+	text-decoration: none;
+	color:white;
+}
+.header-nav{
+	height: 35px;
+	background-color: #ddd;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #aaa;
+}
+.header-nav a{
+	margin-top: 1px;
+	text-align: center;
+	font-size: 1.4em;
+	color:#333;
+	line-height: 2.5em;
+	height:2.5em;
+	display: block;
+  	text-shadow: 0 1px 0 #ffffff;
+}
+.header-nav a:hover{
+	margin-top: 1px;
+	color:#940606;
+  	text-shadow: 0 1px 0 #ffffff;
+  	background-color: white;
+  	text-decoration: none;
+}
